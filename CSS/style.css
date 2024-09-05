@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://i.pinimg.com/564x/80/49/b6/8049b6c9fe916427942be3ac11ec8f72.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-part {
+  width: 50%;
+  height: 100%;
+  background-image: url(https://i.pinimg.com/564x/31/51/b9/3151b98716640fd76fff75295df5a38c.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.description {
+  margin-left: 60px;
+}
+.description h1 {
+  margin-bottom: 50px;
+}
+.description p {
+  margin-bottom: 25px;
+  width: 75%;
+}
+.description button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  background-color: rgb(249, 225, 212);
+  border-radius: 4px;
+  font-size: 14px;
+}
+.second-part {
+  background-color: #f5cbcb;
+  width: 50%;
+  height: 100%;
+}
+.login-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  
+   
+}
+.login-detail h1{
+  margin-top: 20px;
+}
+.login-detail h3{
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.login-detail input {
+  width: 70%;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  padding-left: 12px;
+}
+button.continue{
+  width: 140px;
+  height: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #13262B;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+button.sign-up{
+  width:180px;
+  height:30px ;
+  margin-top: 15px;
+  background-color:#f8687b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
